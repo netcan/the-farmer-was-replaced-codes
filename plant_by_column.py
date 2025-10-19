@@ -3,7 +3,7 @@ from core import do_harvest, do_plant, reset_farm_state, scan_farm, spawn_by_col
 
 def plant_by_column(plant_types=None):
     # Create a planting callback that alternates crops by column.
-    if plant_types is None:
+    if plant_types == None:
         plant_types = [Entities.Carrot, Entities.Tree, Entities.Grass]
 
     def do_planting():
@@ -33,6 +33,6 @@ def run_spawn_by_column_default():
     spawn_by_column(plant_by_column())
 
 
-run_scan_farm_default()
-run_spawn_by_column_grass()
+# run_scan_farm_default()
+# run_spawn_by_column_grass()
 run_spawn_by_column_default()

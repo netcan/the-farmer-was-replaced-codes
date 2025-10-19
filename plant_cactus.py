@@ -6,7 +6,8 @@ def plant_cactus():
     size = get_world_size()
     per_worker = (size + max_drones() - 1) // max_drones()
 
-    while True:
+    # while True:
+    while num_items(Items.Cactus) < 33554432:
         def sort_by_row(worker_id):
             for x in range(worker_id * per_worker, min((worker_id + 1) * per_worker, size)):
                 for y in range(size):

@@ -18,6 +18,6 @@ def plant_pumpkin():
             if pos in pumpkin_pos:
                 pumpkin_pos.remove(pos)
         quick_print("len = ", len(pumpkin_pos))
-        return len(pumpkin_pos) == 36
+        return len(pumpkin_pos) == 32
 
     return do_plant_pumpkin

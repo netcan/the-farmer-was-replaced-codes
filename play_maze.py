@@ -3,7 +3,7 @@ from core import do_harvest, reset_farm_state
 
 def make_maze(substance=None):
     # Create a maze using the weird substance.
-    if substance is None:
+    if substance == None:
         substance = get_world_size() * 2**(num_unlocked(Unlocks.Mazes) - 1)
     plant(Entities.Bush)
     use_item(Items.Weird_Substance, substance)

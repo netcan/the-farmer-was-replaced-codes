@@ -1,1 +1,1 @@
-leaderboard_run(Leaderboards.Cactus,  "main", 100000000)
+leaderboard_run(Leaderboards.Cactus,  "plant_cactus", 100000000)
