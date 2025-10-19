@@ -1,7 +1,7 @@
 # Repository Guidelines
 
 ## API Doc
-请严格遵守一下文档约束。
+请严格遵守一下文档约束。项目中很多python不支持高级语法，仅仅是对python脚本的一个最小集模拟，也不支持import系统库/三方库等，但对模块有小部分支持，使用的语法范围不要超过项目文件里的语法。
 
 ### Tooltips Code
 == <code>abs(number)</code> ==
